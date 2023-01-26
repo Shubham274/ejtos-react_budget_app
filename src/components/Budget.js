@@ -6,7 +6,8 @@ const Budget = () => {
 
   return (
     <div className="alert alert-secondary">
-      <span>Budget: £{budget}</span>
+      <span>Budget: £</span>
+      <input type="number" value={budget} step="5" />
     </div>
   );
 };
