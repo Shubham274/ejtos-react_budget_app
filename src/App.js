@@ -23,6 +23,15 @@ const App = () => {
           <div className="col-sm">
             <ExpenseTotal />
           </div>
+          <div className="col-sm">
+            <select>
+              Currency(£ Pound)
+              <option>$ Dollar</option>
+              <option>£ Pound</option>
+              <option>$ Euro</option>
+              <option>$ Ruppee</option>
+            </select>
+          </div>
         </div>
         <h3 className="mt-3">Allocation</h3>
         <div className="row ">
